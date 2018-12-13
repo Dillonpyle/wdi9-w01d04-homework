@@ -26,3 +26,14 @@ function checkPalindrome(s, i) {
 //let newArr = Array.from(n.toString()).map(Number);
 //let sumOfArray = newArr[0] + newArr[1];
 //console.log(sumOfArray);
+
+// Pythagoras
+let a = 8
+let b = 6
+
+
+function calculateSide(a, b) {
+    return Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+}
+
+console.log(calculateSide(a, b));
